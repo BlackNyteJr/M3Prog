@@ -16,5 +16,5 @@ services:
       - './:/var/www/html'
       - './docker/nginx:/etc/nginx/conf.d'
     depends_on:
-      - ph
+      - php
   
