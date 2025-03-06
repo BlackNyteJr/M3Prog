@@ -17,12 +17,12 @@ if(isSet($_GET['loggedIn']))
 </head>
 <body>
     <?php
-        if($loggedIn = false)
+        if($loggedIn == true)
         {
             include "views/myDashboard.html";
         }
 
-        else
+        else if($loggedIn == false)
         {
             include "views/home.html";
         }
