@@ -1,20 +1,8 @@
 <?php
 
-$afstand_km1 = 663;
-$km_per_liter1 = 15;
-$liter_prijs1 = 1.90;
-
-$afstand_km2 = 1438;
-$km_per_liter2 = 20;
-$liter_prijs2 = 1.46;
-
-$afstand_km3 = 1991;
-$km_per_liter3 = 18.47;
-$liter_prijs3 = 2.23;
-
-$kosten = berekenRitKosten1($afstand_km1, $km_per_liter1, $liter_prijs1);
-$kosten2 = berekenRitKosten2($afstand_km2, $km_per_liter2, $liter_prijs2);
-$kosten3 = berekenRitKosten3($afstand_km3, $km_per_liter3, $liter_prijs3);
+$kosten = berekenRitKosten1(663, 15, 1.90);
+$kosten2 = berekenRitKosten2(1438, 20, 1.46);
+$kosten3 = berekenRitKosten3(1991, 18.47, 2.23);
 
 function berekenRitKosten1($afstand_km1, $km_per_liter1, $liter_prijs1){
     $kosten_euro = 0;
